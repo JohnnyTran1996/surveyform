@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survery Form</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favico/favicon.ico">
+</head>
+
+<body>
+    <h1>Survey Form</h1>
+    <form class="form">
+        <div>
+            <label for="fname">Name</label>
+            <input class="input-profile" type="text" id="fname" name="fname" placeholder="Enter your name">
+        </div>
+        <div>
+            <label for="mail">Email</label>
+            <input class="input-profile" type="email" id="mail" name="mail" placeholder="Enter your mail">
+        </div>
+        <div>
+            <label for="age">Age</label>
+            <input class="input-profile" type="text" id="age" name="age" placeholder="Enter your age">
+        </div>
+        <div>
+            <label for="job">Which option best describe you?</label>
+            <select class="select-job" id="job" name="job">
+                <option value="student">Student</option>
+                <option value="fresher">Fresher</option>
+                <option value="junior">Junior</option>
+                <option value="senior">Senior</option>
+                <option value="professor">Professor</option>
+            </select>
+        </div>
+        <div>
+            <label>Would you recommend GeeksforGeeks to a friend?</label>
+            <input type="radio" class="recommend" id="recommend1" name="recommend" value="yes">
+            <label for="recommend1">Yes</label>
+            <input type="radio" class="recommend" id="recommend2" name="recommend" value="no">
+            <label for="recommend2">No</label>
+            <input type="radio" class="recommend" id="recommend3" name="recommend" value="maybe">
+            <label for="recommend3">Maybe</label>
+        </div>
+        <div>
+            <label>Language and Frameworks known (checked all that apply)</label>
+            <input type="checkbox" class="language" id="C#">
+            <label for="C#">C#</label>
+            <input type="checkbox" class="language" id="C+">
+            <label for="C+">C+</label>
+            <input type="checkbox" class="language" id="C++">
+            <label for="C++">C++</label>
+            <input type="checkbox" class="language" id="python">
+            <label for="python">Python</label>
+            <input type="checkbox" class="language" id="javascipt">
+            <label for="javascipt">JavaScript</label>
+            <input type="checkbox" class="language" id="java">
+            <label for="java">Java</label>
+            <input type="checkbox" class="language" id="php">
+            <label for="php">PHP</label>
+            <input type="checkbox" class="language" id="reactjs">
+            <label for="reactjs">ReactJS</label>
+        </div>
+        <div>
+            <label for="comment">Any comments or suggestions:</label>
+            <textarea id="comment" name="comment" placeholder="Enter your comments"></textarea>
+        </div>
+        <div>
+            <label for="submit"></label>
+            <button type="submit" class="btn">Submit</button>
+        </div>
+    </form>
+</body>
+
+</html>
